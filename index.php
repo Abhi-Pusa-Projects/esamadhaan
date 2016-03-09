@@ -12,49 +12,7 @@
   <body>
 
    <header>
-     <!--navbar code starts here-->
-     <nav class="navbar navbar-default">
-     <div class="container-fluid">
-       <!-- Brand and toggle get grouped for better mobile display -->
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-         <a class="navbar-brand" href="#">ESAMAADHAAN</a>
-       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-       <ul class="nav navbar-nav navbar-right">
-         <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-         <li class="dropdown">
-           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-           <ul class="dropdown-menu">
-             <li><a href="#">Workshop</a></li>
-             <li><a href="#">STP/WTP</a></li>
-             <li><a href="#">Corporate Training</a></li>
-           </ul>
-         </li>
-         <li><a href="#">Upcoming Programs</a></li>
-         <li><a href="#">Gallery</a></li>
-         <li><a href="#">Blog</a></li>
-         <li class="dropdown">
-           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
-           <ul class="dropdown-menu">
-             <li><a href="#">Sponsorship</a></li>
-             <li><a href="#">Testimonials</a></li>
-             <li><a href="#">Careers</a></li>
-             <li><a href="#">Contact Us</a></li>
-           </ul>
-         </li>
-       </ul>
-     </div><!-- /.navbar-collapse -->
-   </div><!-- /.container-fluid -->
-   </nav>
-   <!--navbar code ends here-->
+     <?php include 'header.php' ?>
    </header>
 
 <div id="corousel_container">
@@ -424,7 +382,7 @@
   </div>
   <div class="col-sm-6 feedback_right">
     <h1>Request For Workshop</h1>
-    <form class="feedback_form" action="feedback.php" method="post">
+    <form class="feedback_form" action="workshop.php" method="post">
       <div class="row">
         <div class="col-sm-6 div_feedback">
           <input type="text" class="input_form" name="f_name" placeholder="First Name">
@@ -443,7 +401,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 div_feedback">
-          <textarea name="comment" class="input_form1" rows="6" cols="40" placeholder="Your Message"></textarea><br>
+          <textarea name="message" class="input_form1" rows="6" cols="40" placeholder="Your Message"></textarea><br>
           <button type="submit" class="btn btn-primary input_form1" name="button">Send</button>
         </div>
       </div>
@@ -453,116 +411,7 @@
 <!--end of request for workshop section-->
 
 <footer>
-  <div class="row contact_wrapper">
-    <div class="col-sm-4">
-      <div class="col-sm-2 image_wrapper">
-        <img src="./img/circle.png" alt="" style="height:50px;width:50px" />
-      </div>
-      <div class="col-sm-10 text_wrapper">
-        CALL/WATSAPP<br>
-        +91-8105633283
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="col-sm-2 image_wrapper">
-        <img src="./img/interface.png" alt="" style="height:50px;width:50px"/>
-      </div>
-      <div class="col-sm-10 text_wrapper">
-        EMAIL US <br>
-        ashesh.nitd@gmail.com
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="col-sm-2 image_wrapper">
-        <img src="./img/business.png" alt="" style="height:50px;width:50px"/>
-      </div>
-      <div class="col-sm-10 text_wrapper">
-        OPENING HOURS <br>
-        24x7x365
-      </div>
-    </div>
-  </div>
-
-  <div class="row footer_div">
-    <div class="col-sm-3">
-      <div class="col-sm-12 sitemap_div">
-        <h3>SITEMAP</h3>
-      </div>
-      <div class="col-sm-6">
-        <ul>
-          <li>About Us</li>
-          <li>Article</li>
-          <li>Experience</li>
-          <li>Program Near You</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <ul>
-          <li>Sponsorship</li>
-          <li>Work With Us</li>
-          <li>What People Said</li>
-          <li>Find Us</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-sm-6">
-      <div class="col-sm-12 services_div">
-        <h3>SERVICES OFFERED</h3>
-      </div>
-      <div class="col-sm-6">
-        <ul>
-          <li>Vehicle Overhauling</li>
-          <li>Vehicle Dynamics</li>
-          <li>Motor Bike Overhauling</li>
-          <li>Engine Design and Dismantling</li>
-          <li>One day Introdunctory Program</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <ul>
-          <li>Corporate Training Program</li>
-          <li>Winter Training</li>
-          <li>Summer Training</li>
-          <li>Industrial Site</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="col-sm-12">
-        <h3>Contact Us</h3>
-      </div>
-      <div class="col-sm-12">
-        <img src="./img/location.png" alt="location image" style="height:20px;width:20px" />&nbsp;
-        <span>
-          G6 Sai krishna Paradise,<br>
-          Near Celebrity Housing Gate,<br>
-          Doddathogur, Electronic City<br>
-          Bangalore-560100
-        </span>
-      </div><br>
-      <div class="col-sm-12">
-        <img src="./img/telephone.png" alt="telephone image" style="height:20px;width:20px"/> &nbsp;
-        <span>+91-8105633283</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="row copyright_div">
-    <div class="col-sm-4 copyright_sub_div">
-      Copyrights @ 2016 Esamaadhaan | All Rights Reserved.<br>
-      Design and Developed By Abhinav Ashesh
-    </div>
-    <div class="col-sm-4">
-      <h1>ESAMAADHAAN</h1>
-    </div>
-    <div class="col-sm-4 icon_sub_div">
-      <img src="./img/social.png" alt="facebook image" style="height:30px;width:30px"/>
-      <img src="./img/twitter.png" alt="facebook image" style="height:30px;width:30px"/>
-    </div>
-  </div>
-
+  <?php include 'footer.php'?>
 </footer>
 
 </body>
