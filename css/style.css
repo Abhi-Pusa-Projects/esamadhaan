@@ -1,0 +1,137 @@
+#site_details_wrapper{
+  padding:0px;
+  margin:0px;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+#seperator1,#seperator2,#seperator3{
+  padding:0px;
+  margin:0px;
+  padding-top:20px;
+}
+
+#service_details{
+  padding:0px;
+  margin:0px;
+  padding-top:20px;
+  height:450px;
+}
+
+.div_feedback{
+  padding:0px;
+  margin:0px;
+}
+.input_form{
+  width:90%;
+  padding:10px;
+  margin:0px;
+  padding-left:10px;
+  margin-bottom:15px;
+}
+.input_form1{
+  width:95%;
+  padding:10px;
+  margin:0px;
+  padding-left:10px;
+  margin-bottom:15px;
+}
+
+.feedback_left{
+  padding:0px;
+  margin:0px;
+}
+.feedback_right{
+  padding:0px;
+  margin:0px;
+  padding-left:20px;
+  background:#f5f5f5;
+}
+
+.service_details1{
+  padding:20px;
+  margin:0px;
+  padding-top:20px;
+  height:450px;
+  text-align:center;
+}
+
+body{
+  overflow-x: hidden;
+}
+hr{
+  margin:10px;
+}
+#site_details_wrapper a{
+  padding:0px;
+}
+
+.first_nav_tab{
+  padding-top:20px;
+}
+
+.image_div{
+height:83px;
+//background-color: blue;
+padding:0px;
+padding-left:20px;
+padding-top:30px;
+}
+
+.details_div{
+height:83px;
+//background-color:green;
+padding:0px;
+padding-left:20px;
+padding-top:30px;
+}
+
+#corousel_container{
+  text-align: center;
+  margin:auto;
+}
+
+#courosel_img1,#courosel_img2,#courosel_img3,#courosel_img4
+{
+  height:550px;
+  width:1375px;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
