@@ -1,3 +1,9 @@
+<div class="row" id="login_row_header">
+  <div class="pull-right" id="login_header">
+      <span class="glyphicon glyphicon-user"></span><a href="#">Member Login </a>/<a href="#"> SignUp </a>
+  </div>
+</div>
+
 <!--navbar code starts here-->
 <nav class="navbar navbar-default">
 <div class="container-fluid">
@@ -15,24 +21,24 @@
  <!-- Collect the nav links, forms, and other content for toggling -->
  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav navbar-right">
-    <li><a href="./index.php">Home <span class="sr-only">(current)</span></a></li>
+    <li><a href="./index.php"><span class="glyphicon glyphicon-home"></span>Home <span class="sr-only">(current)</span></a></li>
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+      <a href="./index.php#seperator" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart"></span>Services <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="#">Workshop</a></li>
-        <li><a href="#">STP/WTP</a></li>
-        <li><a href="#">Corporate Training</a></li>
+        <li><a href="./index.php#seperator1">Industrial</a></li>
+        <li><a href="./index.php#seperator1">Domestic</a></li>
+        <!-- <li><a href="#">Corporate Training</a></li> -->
       </ul>
     </li>
-    <li><a href="#">Upcoming Programs</a></li>
-    <li><a href="#">Gallery</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="./index.php#seperator4"><span class="glyphicon glyphicon-glass"></span>Upcoming Programs</a></li>
+    <li><a href="./index.php#seperator2"><span class="glyphicon glyphicon-picture"></span>Gallery</a></li>
+    <!-- <li><a href="#">Blog</a></li> -->
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-edit"></span>More <span class="caret"></span></a>
       <ul class="dropdown-menu">
         <li><a href="#">Sponsorship</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Careers</a></li>
+        <li><a href="./index.php#seperator3">Testimonials</a></li>
+        <!-- <li><a href="#">Careers</a></li> -->
         <li><a href="#">Contact Us</a></li>
       </ul>
     </li>

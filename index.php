@@ -65,11 +65,12 @@
       <li role="presentation">
         <a href="#">
           <div class="row">
-            <div class="col-sm-4 image_div">
+            <div class="col-sm-3 image_div">
               <img src="./img/car-in-a-garage.png" alt="can in garage" style="height:70px;width:70px;margin:0px;margin-left:15px"/>
             </div>
-            <div class="col-sm-8 details_div">
-              This is a description of the home page
+            <div class="col-sm-9 details_div">
+              <h4>Heading1</h4>
+              This is a description of the heading1 so that our site looks good
             </div>
           </div>
         </a>
@@ -77,11 +78,12 @@
       <li role="presentation">
         <a href="#">
           <div class="row">
-            <div class="col-sm-4 image_div">
+            <div class="col-sm-3 image_div">
               <img src="./img/working-team.png" alt="can in garage" style="height:70px;width:70px;margin:0px;margin-left:15px"/>
             </div>
-            <div class="col-sm-8 details_div">
-              This is a description of the home page1
+            <div class="col-sm-9 details_div">
+              <h4>Heading2</h4>
+              This is a description of the heading2 so that our site looks cool
             </div>
           </div>
         </a>
@@ -89,11 +91,12 @@
       <li role="presentation">
         <a href="#">
           <div class="row">
-            <div class="col-sm-4 image_div">
+            <div class="col-sm-3 image_div">
               <img src="./img/car-wheel.png" alt="can in garage" style="height:70px;width:70px;margin:0px;margin-left:15px"/>
             </div>
-            <div class="col-sm-8 details_div">
-              This is a description of the home page2
+            <div class="col-sm-9 details_div">
+              <h4>Heading 3</h4>
+              This is a description of the heading3 so that ou site looks cool
             </div>
           </div>
         </a>
@@ -130,7 +133,7 @@
     <br>
     <h1>Our Services</h1>
     <p>
-      Below are the services that is provided by us.
+      Below are the services provided by us.
     </p>
   </div>
   <div class="col-sm-2">
@@ -140,23 +143,24 @@
 
 <div class="container">
   <div class="row" id="service_details">
-    <div class="col-sm-4 service_details1" style="background-image:url(./img/car_parts.jpg)">
-      <h1>Heading1</h1>
+    <div class="col-sm-5 service_details1" style="background-image:url(./img/car_parts.jpg)">
+      <h1>Industrial Section</h1>
+      <p>
+        This is an Industrial Section
+      </p>
+    </div>
+    <div  class="col-sm-2 service_details2">
+      <div id="seperator">
+      </div>
+    </div>
+    <div class="col-sm-5 service_details1" style="background-image:url(./img/carparts1.jpg)">
+      <h1>Domestic Section</h1>
       <p>
         Tell me something about this page
       </p>
     </div>
-    <div class="col-sm-4 service_details1" style="background-image:url(./img/carparts1.jpg)">
-      <h1>Heading1</h1>
-      <p>
-        Tell me something about this page
-      </p>
-    </div>
-    <div class="col-sm-4 service_details1" style="background-image:url(./img/carparts3.jpg)">
-      <h1>Heading1</h1>
-      <p>
-        Tell me something about this page
-      </p>
+    <div class="col-sm-12">
+      <a href="./services.php" class="btn btn-primary pull-right" style="background-color:gray;border:0px">Read More &nbsp;<span class="glyphicon glyphicon-arrow-right"><span></a>
     </div>
   </div>
 </div>
@@ -185,42 +189,45 @@
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <h3 class="panel-title">Image1</h3>
         </div>
         <div class="panel-body">
           <img src="./img/workshop1.jpg" alt="" style="height:250px;width:331px"/>
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Description of Image1</div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <h3 class="panel-title">Image2</h3>
         </div>
         <div class="panel-body">
           <img src="./img/workshop2.jpg" alt="" style="height:250px;width:331px" />
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Description Of Image2</div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <h3 class="panel-title">Image3</h3>
         </div>
         <div class="panel-body">
           <img src="./img/workshop3.jpg" alt="" style="height:250px;width:331px"/>
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Description Of Image3</div>
       </div>
+    </div>
+    <div class="col-sm-12">
+      <a href="./gallery.php" class="btn btn-primary pull-right" style="background-color:gray;border:0px">Read More &nbsp;<span class="glyphicon glyphicon-arrow-right"><span></a>
     </div>
   </div>
 </div>
 <!--end of gallery section-->
 
 <!--start of feedback section-->
-<div class="row">
+<div class="row" id="feedback_col">
   <div class="col-sm-6 feedback_left">
     <img src="./img/feedback_image.jpg" alt="feedback image" style="width:100%;height:405px"/>
   </div>
@@ -313,11 +320,14 @@
       </div>
     </div>
   </div>
+  <div class="col-sm-12">
+    <a href="./news_testimony.php" class="btn btn-primary pull-right" style="background-color:gray;border:0px">Read More &nbsp;<span class="glyphicon glyphicon-arrow-right"><span></a>
+  </div>
 </div>
 <!--end of news section-->
 
 <!--seperator between two sections-->
-<div class="row" id="seperator3">
+<div class="row" id="seperator4">
   <div class="col-sm-2">
   </div>
   <div class="col-sm-8" style="position:relative;margin-top:20px;text-align:center" >
@@ -341,74 +351,42 @@
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <img src="./img/upcoming_programs/program1.jpg" alt="" style="height:250px;width:331px"/>
         </div>
         <div class="panel-body">
-          <img src="./img/workshop1.jpg" alt="" style="height:250px;width:331px"/>
+          <h4>Motor Overhauling Program</h4>
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Description of the program</div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <img src="./img/upcoming_programs/program2.jpg" alt="" style="height:250px;width:331px" />
         </div>
         <div class="panel-body">
-          <img src="./img/workshop2.jpg" alt="" style="height:250px;width:331px" />
+          <h4>Upcoming Motor Houling Program</h4>
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Description of program2</div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <img src="./img/upcoming_programs/program3.jpg" alt="" style="height:250px;width:331px"/>
         </div>
         <div class="panel-body">
-          <img src="./img/workshop3.jpg" alt="" style="height:250px;width:331px"/>
+          <h4>Motor Overhauling Program</h4>
         </div>
-        <div class="panel-footer">Panel footer</div>
+        <div class="panel-footer">Desciption of Program3</div>
       </div>
     </div>
+  </div>
+  <div class="col-sm-12">
+    <a href="./upcoming_programs.php" class="btn btn-primary pull-right" style="background-color:gray;border:0px">Read More &nbsp;<span class="glyphicon glyphicon-arrow-right"><span></a>
   </div>
 </div>
 <!--end of upcoming events section-->
-
-<!--start of request for workshop section-->
-<div class="row">
-  <div class="col-sm-6 feedback_left">
-    <img src="./img/workshop.jpg" alt="feedback image" style="width:100%;height:405px"/>
-  </div>
-  <div class="col-sm-6 feedback_right">
-    <h1>Request For Workshop</h1>
-    <form class="feedback_form" action="workshop.php" method="post">
-      <div class="row">
-        <div class="col-sm-6 div_feedback">
-          <input type="text" class="input_form" name="f_name" placeholder="First Name">
-        </div>
-        <div class="col-sm-6 div_feedback">
-            <input type="text" class="input_form" name="l_name" placeholder="Last Name">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 div_feedback">
-          <input type="text" class="input_form" name="email" placeholder="Email">
-        </div>
-        <div class="col-sm-6 div_feedback">
-          <input type="text" class="input_form" name="phone" placeholder="Phone No">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 div_feedback">
-          <textarea name="message" class="input_form1" rows="6" cols="40" placeholder="Your Message"></textarea><br>
-          <button type="submit" class="btn btn-primary input_form1" name="button">Send</button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-<!--end of request for workshop section-->
 
 <footer>
   <?php include 'footer.php'?>
