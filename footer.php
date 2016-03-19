@@ -38,14 +38,12 @@
         <li>About Us</li>
         <li>Article</li>
         <li>Experience</li>
-        <li>Program Near You</li>
       </ul>
     </div>
     <div class="col-sm-6">
       <ul>
         <li>Sponsorship</li>
         <li>Work With Us</li>
-        <li>What People Said</li>
         <li>Find Us</li>
       </ul>
     </div>
@@ -57,19 +55,25 @@
     </div>
     <div class="col-sm-6">
       <ul>
-        <li>Vehicle Overhauling</li>
-        <li>Vehicle Dynamics</li>
-        <li>Motor Bike Overhauling</li>
-        <li>Engine Design and Dismantling</li>
-        <li>One day Introdunctory Program</li>
+        <li>Fabricated Structures</li>
+        <li>Towers and Platforms</li>
+        <li>Industrial parking shed</li>
+        <li>aluminium partitions</li>
+        <li>Internal and Enternal Pointings</li>
+        <li>Floor Works</li>
+        <li>Industrial Wiring</li>
+        <li>Panel Design & Installation</li>
+        <li>Solar Panal Installation</li>
       </ul>
     </div>
     <div class="col-sm-6">
       <ul>
-        <li>Corporate Training Program</li>
-        <li>Winter Training</li>
-        <li>Summer Training</li>
-        <li>Industrial Site</li>
+        <li>Fabricated Structures(Gates and Windows)</li>
+        <li>Internal and External Paintings</li>
+        <li>Electrical Works</li>
+        <li>Plumbing Works</li>
+        <li>Fencing Works</li>
+        <li>Fabricated Railings</li>
       </ul>
     </div>
   </div>
@@ -100,10 +104,11 @@
     Design and Developed By Abhinav Ashesh
   </div>
   <div class="col-sm-4">
-    <h1>ESAMAADHAAN</h1>
+    <h1>e-samaadhaan</h1>
   </div>
   <div class="col-sm-4 icon_sub_div">
     <img src="./img/social.png" alt="facebook image" style="height:30px;width:30px"/>
     <img src="./img/twitter.png" alt="facebook image" style="height:30px;width:30px"/>
   </div>
 </div>
+<script src="./js/move_element.js" type="text/javascript"></script>

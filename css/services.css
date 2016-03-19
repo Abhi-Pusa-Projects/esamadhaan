@@ -1,0 +1,60 @@
+.service_wrapper{
+  text-align: center;
+  height:150px;
+  width:100%;
+  margin:auto;
+  background: url("../img/services/main_header.png") no-repeat center center;
+  background-size: cover;
+}
+
+.industrial_div_wrapper{
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:0px;
+  padding-right:0px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.header-btn{
+  width:100%;
+  background-color:gray;
+  border:0px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:10px;
+}
+
+.image_wapper{
+  text-align: center;
+}
+
+.modal_button{
+  margin-right: 40px;
+}
+
+.services_form{
+  text-align: center;
+}
+
+.services_form_input
+{
+  padding:10px;
+  margin:10px;
+  width:70%;
+  margin-right:20px;
+}
+
+.services_form button{
+  background-color:gray;
+}
+
+#services_det_table table,#services_det_table tr,#services_det_table td{
+  border: 1px solid black;
+  margin:auto;
+}
+
+#services_det_table table{
+  width:100%;
+}
